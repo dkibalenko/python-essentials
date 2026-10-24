@@ -1,0 +1,23 @@
+# Tested with Python 3.13
+# Setup:  python -m venv .venv
+#         .venv\Scripts\activate        (Windows)  |  source .venv/bin/activate  (macOS/Linux)
+#         pip install -r requirements.txt
+
+# ── Jupyter kernel (needed to run the .ipynb lessons) ─────────
+ipykernel==7.2.0
+
+# ── HTTP: requests/, decorators/retry_decorator, main.py ─────
+requests==2.33.1
+urllib3==2.6.3
+
+# ── Web frameworks: descriptors/, decorators/role_based_* ────
+Django==6.0.5
+fastapi==0.136.1
+pydantic==2.13.4
+
+# ── Testing: pytest/ ─────────────────────────────────────────
+pytest>=8.3
+
+# ── Memory profiling: dict_set/2sets/memory_tracemalloc ──────
+memory-profiler==0.61.0
+setuptools==83.0.0
